@@ -1,5 +1,11 @@
 import React from "react";
 
+// 구조분해할당
+// ex)
+// let obj = {teamName:'교육운영',name:'선영표'}
+// let {teamName,name} = obj
+
+// const MyTeam = ({myteam,name}) =>
 const MyTeam = (p) => {
   return (
     <div
@@ -10,7 +16,7 @@ const MyTeam = (p) => {
     </div>
   );
 };
-//default props : 넘겨받은 데이터가 없을 때
+//defaultprops : 넘겨받은 데이터가 없을 때
 MyTeam.defaultProps = {
   name: "아무도 없습니다.",
 };

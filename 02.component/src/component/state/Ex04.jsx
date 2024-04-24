@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useRef } from "react";
+// import { useRef } from "react";
 const Ex04 = () => {
   const [src, setSrc] = useState(1);
   const next = () => {
@@ -26,7 +26,6 @@ const Ex04 = () => {
     </div>
   );
 };
-
 // const Ex04 = () => {
 //   const src = useRef(1);
 

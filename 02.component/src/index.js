@@ -19,7 +19,10 @@ import reportWebVitals from "./reportWebVitals";
 // import Ex03 from "./component/state/Ex03";
 
 // Ex04 -- img태그 다루기
-import Ex04 from "./component/state/Ex04";
+// import Ex04 from "./component/state/Ex04";
+
+// 주사위App
+import DiceApp from "./component/dicegame/DiceApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -30,7 +33,7 @@ root.render(
     <App myteam={"FrontEnd"} name={"구희철"} />
     <App myteam={"Modeling"} name={"남예하"} />
     <App myteam={"BackEnd"} name={"문성진"} /> */
-  <Ex04></Ex04>
+  <DiceApp />
 );
 
 // If you want to start measuring performance in your app, pass a function
