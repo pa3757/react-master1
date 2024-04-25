@@ -11,6 +11,7 @@ const ToDoList = () => {
       alert("전부입력했습니다.");
     }
   }, [list]);
+  // dependence Array
   // [list] --> 맨처음과 list라는 State값이 바뀌었을때만 실행하겠습니다.
 
   const addGoal = () => {
