@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <h1>Welcome to About</h1>
       <p>Home Page</p>
-      <Link to="/">Home으로 이동</Link>
+      <Link to="/home">Home으로 이동</Link>
     </div>
   );
 };
