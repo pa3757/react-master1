@@ -49,7 +49,7 @@ const Map1 = () => {
         }}
         style={{
           width: "100%",
-          height: "350px",
+          height: "700px",
         }}
         level={3}
         onCreate={setMap}
