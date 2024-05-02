@@ -12,7 +12,7 @@ const Map1 = () => {
   useEffect(() => {
     if (!map) return;
     const ps = new kakao.maps.services.Places();
-    const keyword = prompt();
+    const keyword = prompt("찾을 위치");
     ps.keywordSearch(keyword, (data, status, _pagination) => {
       if (status === kakao.maps.services.Status.OK) {
         // 검색된 장소 위치를 기준으로 지도 범위를 재설정하기위해
